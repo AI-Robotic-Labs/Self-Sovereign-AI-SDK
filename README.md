@@ -1,2 +1,3 @@
-# Self-Sovereign-AI-SDK
+# Self Sovereign AI SDK
+
 SDK for Self Sovereign
