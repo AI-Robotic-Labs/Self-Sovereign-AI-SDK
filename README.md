@@ -9,3 +9,4 @@ SDK for Self Sovereign
 - [ ] DHT
 - [ ] Tor support
 - [ ] Mini network design
+- [ ] C++ support
