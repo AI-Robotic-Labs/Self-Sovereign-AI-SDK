@@ -6,10 +6,9 @@ SDK for Self Sovereign
 
 ## Roadmap
 
-- [ ] Initial design
-- [ ] Crates
-- [ ] DHT
+- [x] Initial design
+- [x] Crates
+- [x] DHT
+- [x] Mini network design
 - [ ] Tor support
-- [ ] Mini network design
-- [ ] C++ support
 - [ ] Release in 2025
