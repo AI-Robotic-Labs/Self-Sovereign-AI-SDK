@@ -12,3 +12,4 @@ SDK for Self Sovereign
 - [ ] Tor support
 - [ ] Mini network design
 - [ ] C++ support
+- [ ] Release in 2025
