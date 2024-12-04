@@ -7,6 +7,10 @@ pub struct SelfSovereignAI {
     pub ai_config: AIConfig,
     pub local_data: HashMap<String, String>,
     pub network: NetworkConfig,
+    pub ai_agent_id: String,
+    pub api_token: String,
+    pub llm_identifier: Option<String>,
+    pub llm_api_key: Option<String>,
 }
 
 impl SelfSovereignAI {
@@ -17,6 +21,10 @@ impl SelfSovereignAI {
             ai_config,
             local_data: HashMap::new(),
             network,
+            ai_agent_id: String::new(),
+            api_token: String::new(),
+            llm_identifier: None,
+            llm_api_key: None,
         }
     }
 
