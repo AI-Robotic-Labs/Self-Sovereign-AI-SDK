@@ -33,12 +33,17 @@ impl AIConfig {
 }
 
 #[cfg(test)]
-fn main() {
-    let ai_config = AIConfig::new(
-        "gpt-4".to_string(),  // Model name
-        1000,                // Max compute resources
-        2048,                // Max tokens
-    );
+mod test {
+    use super::AIConfig;
 
-    println!("AIConfig: {:?}", ai_config.model);
+    #[test]
+    fn test_ai_config() {
+        let ai_config = AIConfig::new(
+            "gpt-4".to_string(),  // Model name
+            1000,                // Max compute resources
+            2048,                // Max tokens
+        );
+
+        println!("AIConfig: {:?}", ai_config.model);
+    }
 }
