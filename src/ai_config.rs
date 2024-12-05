@@ -7,6 +7,7 @@ pub struct AIConfig {
     pub llm_api_url: String,
     pub llm_api_key: String,
     pub ai_agent_id: String,
+    pub ai_agent_url: String,
     pub input_parameters: HashMap<String, String>,
     pub output_parameters: HashMap<String, String>,
     pub max_compute: u32,
@@ -25,6 +26,7 @@ impl AIConfig {
             llm_api_url: String::new(),
             llm_api_key: String::new(),
             ai_agent_id: String::new(),
+            ai_agent_url: String::new(),
             max_tokens: 0,
 
         }
