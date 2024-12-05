@@ -1,34 +1,44 @@
 use std::collections::HashMap;
 
 pub struct AIConfig {
-    pub model: String,
-    pub max_tokens: u32,
-    pub api_key: String,
-    pub llm_api_url: String,
-    pub llm_api_key: String,
-    pub ai_agent_id: String,
-    pub ai_agent_url: String,
-    pub input_parameters: HashMap<String, String>,
-    pub output_parameters: HashMap<String, String>,
-    pub max_compute: u32,
-    pub parameters: HashMap<String, f32>,
+    pub model: String,                          // The name or type of the AI model
+    pub max_tokens: u32,                        // Maximum tokens allowed for responses
+    pub api_key: String,                        // API key for authentication
+    pub llm_api_url: String,                    // URL for the LLM API
+    pub llm_api_key: String,                    // API key for the LLM API
+    pub ai_agent_id: String,                    // Identifier for the AI agent
+    pub ai_agent_url: String,                   // URL or endpoint of the AI agent
+    pub input_parameters: HashMap<String, String>, // Input parameters for requests
+    pub output_parameters: HashMap<String, String>, // Expected output parameters
+    pub max_compute: u32,                       // Maximum compute resources
+    pub parameters: HashMap<String, f32>,       // Model-specific floating-point parameters
 }
 
 impl AIConfig {
-    pub fn new(model: String, max_compute: u32) -> Self {
+    pub fn new(model: String, max_compute: u32, max_tokens: u32) -> Self {
         Self {
             model,
             max_compute,
-            parameters: HashMap::new(),
-            input_parameters: HashMap::new(),
-            output_parameters: HashMap::new(),
+            max_tokens,
             api_key: String::new(),
             llm_api_url: String::new(),
             llm_api_key: String::new(),
             ai_agent_id: String::new(),
             ai_agent_url: String::new(),
-            max_tokens: 0,
-
+            input_parameters: HashMap::new(),
+            output_parameters: HashMap::new(),
+            parameters: HashMap::new(),
         }
     }
+}
+
+#[cfg(test)]
+fn main() {
+    let ai_config = AIConfig::new(
+        "gpt-4".to_string(),  // Model name
+        1000,                // Max compute resources
+        2048,                // Max tokens
+    );
+
+    println!("AIConfig: {:?}", ai_config.model);
 }
