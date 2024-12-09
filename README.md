@@ -1,5 +1,9 @@
 # Self Sovereign AI SDK 🕸️🤖
 
+**Beta Version**
+
+**Use with caution**
+
 ![image](https://github.com/AI-Robotic-Labs/Self-Sovereign-AI/blob/main/image/DALL%C2%B7E-2024-11-18-07.02.png)
 
 ## Overview
@@ -26,4 +30,9 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - [x] API 
 - [ ] Release in 2025
 - [ ] Customer support
+- [ ] Gemini API
+- [ ] AI model management
+- [ ] AI model deployment
+- [ ] AI model training
+- [ ] Robotic AI
 
