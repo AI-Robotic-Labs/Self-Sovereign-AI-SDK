@@ -30,7 +30,6 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - [x] API 
 - [ ] Release in 2025
 - [ ] Customer support
-- [ ] Gemini API
 - [ ] AI model management
 - [ ] AI model deployment
 - [ ] AI model training
