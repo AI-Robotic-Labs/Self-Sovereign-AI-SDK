@@ -28,10 +28,11 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - [x] Mini network design
 - [x] Documentation
 - [x] API 
+- [x] Keypair
 - [ ] Release in 2025
 - [ ] Customer support
 - [ ] AI model management
 - [ ] AI model deployment
 - [ ] AI model training
-- [ ] Robotic AI
+- [ ] Robotic support
 
