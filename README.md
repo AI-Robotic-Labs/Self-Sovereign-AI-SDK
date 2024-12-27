@@ -19,14 +19,6 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - **DHT**: Uses a distributed hash table (DHT) to store and retrieve data in a decentralized manner.
 
 ## Roadmap
-
-- [x] Initial design
-- [x] Crates
-- [x] DHT
-- [x] Mini network design
-- [x] Documentation
-- [x] API 
-- [x] Keypair
 - [ ] Release in 2025 (Crates)
 - [ ] Customer support
 - [ ] AI model management
