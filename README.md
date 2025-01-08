@@ -1,6 +1,6 @@
 # Self Sovereign AI SDK 🕸️🤖
 
-**Beta Version, use with caution for production**
+**Beta Version, usse with caution for production**
 
 ![image](https://github.com/AI-Robotic-Labs/Self-Sovereign-AI/blob/main/image/DALL%C2%B7E-2024-11-18-07.02.png)
 
@@ -19,6 +19,7 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - **DHT**: Uses a distributed hash table (DHT) to store and retrieve data in a decentralized manner.
 
 ## Roadmap
+
 - [ ] Release in 2025 (Crates)
 - [ ] Customer support
 - [ ] AI model management
