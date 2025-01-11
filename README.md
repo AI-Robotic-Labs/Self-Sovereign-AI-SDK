@@ -1,6 +1,6 @@
 # Self Sovereign AI SDK 🕸️🤖
 
-**Beta Version, usse with caution for production**
+**Beta Version, use with caution for production**
 
 **This SDK is still in development**
 
