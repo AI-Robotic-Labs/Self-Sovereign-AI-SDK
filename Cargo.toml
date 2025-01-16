@@ -8,7 +8,7 @@ edition = "2021"
 tokio = { version = "1.0.42", features = ["full"] }
 
 # Decentralized networking
-libp2p = "0.54.1"
+libp2p = "0.55.0"
 
 # Data serialization
 serde = { version = "1.0.216", features = ["derive"] }
