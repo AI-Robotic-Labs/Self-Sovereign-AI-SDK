@@ -7,6 +7,8 @@
 **This SDK is for research purposes only**
 
 ![image](https://github.com/AI-Robotic-Labs/Self-Sovereign-AI/blob/main/image/DALL%C2%B7E-2024-11-18-07.02.png)
+[![crates.io](https://img.shields.io/crates/v/self_sovereign_ai)](https://crates.io/crates/self_sovereign_ai)
+
 
 ## Overview
 
