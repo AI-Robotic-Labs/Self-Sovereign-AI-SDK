@@ -3,6 +3,7 @@ use std::collections::HashMap;
 pub struct DHT {
     pub local_storage: HashMap<String, String>,
     pub peer_nodes: Vec<String>,
+    pub local_data: HashMap<String, String>,
 }
 
 impl DHT {
@@ -10,6 +11,7 @@ impl DHT {
         Self {
             local_storage: HashMap::new(),
             peer_nodes: Vec::new(),
+            local_data: HashMap::new(),
         }
     }
 

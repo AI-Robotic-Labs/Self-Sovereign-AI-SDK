@@ -26,13 +26,12 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 
 ## Roadmap
 
-- [x] Release in 2025 (Crates)
 - [ ] Customer support
 - [ ] AI model management
 - [ ] AI model deployment
 - [ ] AI model training
 - [ ] Robotic support
 - [ ] AGI
-- [ ] Local server
+- [x] Local server
 - [ ] MPC
 

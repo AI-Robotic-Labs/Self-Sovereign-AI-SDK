@@ -2,6 +2,7 @@ pub struct NetworkConfig {
     pub address: String,
     pub port: u16,
     pub protocol: String,
+    pub local_ip: String,
 }
 
 impl NetworkConfig {
@@ -10,6 +11,7 @@ impl NetworkConfig {
             address,
             port,
             protocol,
+            local_ip: String::new(),
         }
     }
 }

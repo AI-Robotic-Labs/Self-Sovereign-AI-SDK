@@ -15,6 +15,7 @@ pub struct SelfSovereignAI {
     pub api_token: String,                      // Token for API authentication
     pub llm_identifier: Option<String>,         // Optional identifier for the LLM
     pub llm_api_key: Option<String>,            // Optional API key for the LLM
+    pub local_server: String,                   // Local server URL
 }
 
 impl SelfSovereignAI {
@@ -31,6 +32,7 @@ impl SelfSovereignAI {
             api_token: String::new(),
             llm_identifier: None,
             llm_api_key: None,
+            local_server: String::new(),
         }
     }
 
