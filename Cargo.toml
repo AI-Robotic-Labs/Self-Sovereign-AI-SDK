@@ -14,7 +14,7 @@ repository = "https://github.com/AI-Robotic-Labs/Self-Sovereign-AI-SDK"
 tokio = { version = "1.0.42", features = ["full"] }
 
 # Decentralized networking
-libp2p = "0.55.0"
+libp2p = "0.56.0"
 
 # Data serialization
 serde = { version = "1.0.216", features = ["derive"] }
