@@ -32,6 +32,5 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - [ ] AI model training
 - [ ] Robotic support
 - [ ] AGI
-- [x] Local server
-- [ ] MPC
+- [x] MPC
 

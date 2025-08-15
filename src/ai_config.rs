@@ -13,6 +13,7 @@ pub struct AIConfig {
     pub max_compute: u32,                       // Maximum compute resources
     pub parameters: HashMap<String, f32>,       // Model-specific floating-point parameters
     pub local: String,                          // Local server
+    pub mcp: String                             // MCP Server
 }
 
 impl AIConfig {
@@ -30,6 +31,7 @@ impl AIConfig {
             output_parameters: HashMap::new(),
             parameters: HashMap::new(),
             local: String::new(),
+            mcp: String::new(),
         }
     }
 }
