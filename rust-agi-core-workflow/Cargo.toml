@@ -16,6 +16,6 @@ thiserror = "1.0"
 tracing = "0.1"
 futures = "0.3"
 # Optional: JSON schema validation (small)
-jsonschema = "0.16"
+jsonschema = "0.32"
 # Self-Sovereign SDK (replace with actual path or git; left as optional)
 # self_sovereign_ai = { git = "https://github.com/AI-Robotic-Labs/Self-Sovereign-AI-SDK", branch = "main" }
