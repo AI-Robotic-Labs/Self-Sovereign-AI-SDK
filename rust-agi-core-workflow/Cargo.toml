@@ -12,7 +12,7 @@ anyhow = "1.0"
 rusqlite = { version = "0.29", features = ["bundled"] } # sqlite memory store
 chrono = { version = "0.4", features = ["serde"] }
 uuid = { version = "1.4", features = ["v4"] }
-thiserror = "1.0"
+thiserror = "2.0"
 tracing = "0.1"
 futures = "0.3"
 # Optional: JSON schema validation (small)
