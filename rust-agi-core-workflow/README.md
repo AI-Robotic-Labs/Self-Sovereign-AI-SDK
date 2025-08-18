@@ -89,18 +89,4 @@ async fn main() {
 ## 📜 License
 
 MIT 
-
----
-
-## 🌐 Roadmap
-
-* [ ] Add ZK-proof enabled reasoning layer
-* [ ] Blockchain + Lightning Network action executor
-* [ ] Persistent decentralized memory (IPFS / Ceramic / OrbitDB)
-* [ ] Multi-agent coordination
-
----
-
-👉 With this base, you can extend the system into **self-sovereign AGI agents** ready for blockchain, autonomous robotics, and decentralized ecosystems.
-
 ---
