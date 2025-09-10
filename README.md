@@ -35,4 +35,5 @@ The Self Sovereign AI SDK is a powerful toolset designed to empower developers a
 - [ ] Blockchain + Lightning Network action executor
 - [ ] Persistent decentralized memory (IPFS / Ceramic / OrbitDB)
 - [ ] Multi-agent coordination
+- [ ] Raspeberry Pi 
 
